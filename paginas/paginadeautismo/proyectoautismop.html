@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="../../css/celuindex.css" media="(max-width: 800px)">
+  <link rel="stylesheet" href="../../css/estiloautismo.css">
+  <link rel="shortcut icon" href="../../imagenes/imagenesdeautismo/logo.jpeg">
+  
+</head>
+
+<body>
+  <header>
+   
+    <nav id="contenedo">
+        <div>
+          <a href="./proyectoautismop.html"><img id="logo" src="../../imagenes/imagenesdeautismo/logo.jpeg" alt=""></a>
+        </div>
+        <div>
+          <a href="./proyectoautismop.html"><strong>Home</strong></a>
+        </div>
+        <div>
+          <a href="./proyectoautismo.html"><strong>Informacion</strong></a>
+        </div>
+        <div>
+          <a href="./formulario.html"><strong>Contacto</strong></a>
+        </div>
+        <div>
+          <a href="./sobrenosotros.html"><strong>Sobre nosotros</strong></a>
+        </div>
+        
+  
+      </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Imagenes</h1>
+      <div id="contenedor">
+        <div id="clickparamasinfo">
+          <a id="imglink" href="./proyectoautismo.html">
+         <img class="contIMG" id="contIMG" src="../../imagenes/imagenesdeautismo/imagen1.png"  onmouseover="verSpan('ClickParaMasInfo','150px')"
+         onmouseout="ocultarSpan('clickparamasinfo')"></img>
+          <br>
+        </a>
+        </div>
+      </div>
+      <br>
+      <div id="contB">
+        <div id="anterior">
+          <button id="a" name="anterior"
+              onclick="anterior()">&#10094</button>
+          </div>
+          <div id="siguiente">
+              <button id="s"
+              name="siguiente" onclick="siguiente()">&#10095</button>
+          </div>
+      </div>
+      </div>
+      <div id="div-video">
+        <h1>¿Que es ser autista?</h1>
+        <p id="definicion">
+          Son estas diferentes formas de percibir, lo que nos hace a todos diferentes; pero una persona
+          autista va mas alla de "algunas" diferencias. <br> Por ejemplo, a alistas (no autistas) los puede
+          molestar el ruido, mientras que a personas autistas puede dolerles el ruido, lo que los descompensa
+
+        </p>
+        <div id="video1">
+        <video id="video" controls>
+          <source id="contenedor-video" src="../../imagenes/imagenesdeautismo/video1.mp4" type="video/mp4">
+          Tu navegador no es apto para mp4
+        </video>
+      </div>
+      </div>
+        <section>
+  </main>
+
+  <footer>
+    <div class="contf">
+        <div class="div1">
+            <div id="div2"><span>© 2024 Empresa GRUPO3 Ltda. Todos los derechos
+                    reservados</span><br><br><span>Teléfono: +5491141247321 , Email: grupo3@gmail.com</span></div>
+            <div id="div3"><span>Dirección: Calle: Ridavia 523, Ciudad: Florida </span><br><br><span>Última
+                    actualización: 7 de marzo de 2024</span></div>
+        </div>
+    </div>
+</footer>
+
+<script src="../../javascript/scriptautismo.js"></script>
+</body>
+
+</html>

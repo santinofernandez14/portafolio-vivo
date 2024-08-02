@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de datos</title>
+    <script src="../../javascript/app.js" defer></script>
+    <script src="../../javascript/scriptnav.js"></script>
+    <link rel="stylesheet" href="../../css/estiloformulario.css">
+    <link rel="shortcut icon" href="../../imagenes/icono.png">
+</head>
+
+<body id="body">
+
+    <nav id="contenedo">
+
+        <div id="home" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/paginadeturismo/paginaturismo.html" style="text-decoration: none;color:rgb(173, 146, 140)">Home</a>
+        </div>
+        <div id="hoteles" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/paginasdeinteres/paginasdeinteres.html"
+                style="text-decoration: none; color:rgb(173, 146, 140)">Páginas de interés</a>
+        </div>
+        <div id="contacto" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/contacto/contacto.html" style="text-decoration: none; color:rgb(173, 146, 140)">Contacto</a>
+
+        </div>
+        <div id="acercade" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/aboutus/aboutus.html" style="text-decoration: none; color:rgb(173, 146, 140)">Acerca de:</a>
+
+        </div>
+    </nav>
+    <main>
+
+        <div class="fondo"></div>
+
+        <section>
+
+            <div id="contenedor">
+
+                <form action="#" name="formulario" id="formulario" onsubmit="event.preventDefault(); return validar()"
+                    method="post">
+
+                    <br>
+
+                    <h2>Ingrese sus datos</h2>
+
+
+
+                    <div id="c1">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" size="20">
+                        <br>
+                        <br>
+                    </div>
+
+                    <div id="c2">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido" id="apellido" size="20">
+                        <br>
+                        <br>
+                    </div>
+
+
+
+                    <div id="c3">
+                        <label for="gmail">Email:</label>
+                        <input type="text" id="gmail" name="gmail" size="20">
+                        <br>
+                        <br>
+                    </div>
+
+                    <br>
+
+                    <div id="c4">
+                        <label for="mensaje">Mensaje:</label>
+                        <input type="text" id="mensaje" name="mensaje" size="20">
+                        <br>
+                    
+                    </div>
+
+                    
+
+                    <pre id="parrafo">
+
+                    </pre>
+
+                    <div id="c5">
+                        <input type="submit" id="enviar" value="Enviar">
+                    </div>
+                
+                    <br>
+                    <br>
+
+                </form>
+            </div>
+
+            <br>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contf">
+            <div class="div1">
+                <div id="div2"><span>© 2024 Empresa GRUPO7 Ltda. Todos los derechos
+                        reservados</span><br><br><span>Teléfono: +5491141247321 , Email: grupo7@gmail.com</span></div>
+                <div id="div3"><span>Dirección: Calle: Ridavia 523, Ciudad: Florida </span><br><br><span>Última
+                        actualización: 7 de marzo de 2024</span></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

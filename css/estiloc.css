@@ -1,0 +1,122 @@
+
+
+
+body{
+    background-color: beige;
+}
+
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#jugadoresContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.jugadorContainer{
+    width: 40vw;
+    min-height: 70vh;
+    background-color: rgb(234, 233, 213);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+button{
+    min-width: 60px;
+    font-size: xx-large;
+    background-color: rgb(200, 197, 193);
+    border-radius: 5px;
+   
+}
+
+.botonesJugador{
+    position: fixed;
+    top: 65px;
+}
+
+img{
+    height: 70px;
+}
+
+.grupo{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.separador{
+    border-top: 2px solid black;
+    width: 70px;
+    margin: 10px;
+}
+
+
+
+.fosforo1{
+    position: absolute;
+    transform: rotate(90deg);
+    top: -30px;
+    left: 32px;
+
+}
+
+
+.fosforo2{
+  position: absolute;
+  transform: rotate(180deg);
+  left: 65px;
+  top: 0px;
+  
+  
+}
+
+
+.fosforo3{
+  position: absolute;
+  transform: rotate(270deg);
+  top: 32px;
+  left: 32px;
+  
+}
+
+.fosforo4{
+    position: absolute;
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+
+}
+
+.fosforo5{
+    position: absolute;
+    transform: rotate(45deg);
+    left: 34px;
+    top: 0px;
+
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+}

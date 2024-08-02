@@ -1,0 +1,21 @@
+.contf{
+    margin-top: 30px;
+    font-size: 20px; 
+    }
+    
+    #contB {
+        position: relative;
+        margin: 0 auto;
+        max-width: 600px;
+      
+       
+        margin-left: 180px;
+          
+    }
+    
+    #s {
+        display: flex;
+        margin-left: -150px;
+        
+        
+    }

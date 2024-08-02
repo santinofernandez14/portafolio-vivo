@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de truco</title>
+    <link rel="stylesheet" href="../../css/estiloc.css">
+    <link rel="shortcut icon" href="../../imagenes/proyectos/Truco.jpg">
+    <script src="../../javascript/script.js" type="module" defer></script>
+</head>
+<body>
+   <h1>Contador de truco</h1>
+   <div id="jugadoresContainer">
+    <div id="jugador1Container" class="jugadorContainer">
+        <div class="botonesJugador">
+            <button class="agregar">+</button>
+            <button class="restar">-</button>
+        </div>
+        <h2></h2>
+        <div class="cuenta"></div>
+    </div>
+    <div  id="jugador2Container" class="jugadorContainer">
+    <div class="botonesJugador">
+        <button class="agregar">+</button>
+        <button class="restar">-</button>
+    </div>
+        <h2></h2>
+        <div class="cuenta"></div>
+    </div>
+   </div>
+   <div id="reset">
+   <button id="reset">Reset</button>
+    </div>
+   <dialog type="modal">
+
+    <p>¿Estás seguro de que quéres resetear la partida?</p>
+    <button id="aceptar">Aceptar</button>
+    <button id="volver">Volver</button>
+
+   </dialog>
+   <footer>
+    <p>Hecho por Santino Fernandez</p>
+   </footer>
+</body>
+</html>

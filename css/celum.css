@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .contenido {
+        width: 100%;
+        
+    }
+    .textos {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        height: 100vh;
+        text-align: center;
+        
+       
+    }
+    .menu {
+        margin-bottom: 40px;
+        margin-top: 50px;
+        display: flex;
+        margin-left: -240px;
+    
+    }
+    
+    img {
+        display: none;
+    }
+    
+    .contf {
+        margin-top: 90px;
+    
+        
+        
+    }

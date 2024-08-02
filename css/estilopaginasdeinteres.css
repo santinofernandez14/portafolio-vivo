@@ -1,0 +1,100 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5ede9;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+ .contenedor {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+h2 {
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+
+h3{
+    color: #666;
+}
+
+ul {
+    list-style-type:disc;
+    color: #666;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.nota {
+
+    color: #999;
+    margin-top: 20px;
+}
+
+#contenedo{
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 55px;
+    border: solid 2px  rgb(76, 66, 67);
+    border-radius: 15px;
+    background-color:  rgb(76, 66, 67);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contenedo > div{
+    text-align: center;
+    color:#49362e;
+    border: 1px solid rgb(173, 146, 140)(46, 46, 47);
+    background-color: rgb(173, 146, 140)(53, 53, 54);
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border-radius: 10px;*/
+}
+
+.fondo {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* estilos del pie de pagina */
+.contf {
+    background-color: rgb(76, 66, 67);
+    padding: 20px;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+  }
+  
+  .div1 {
+    display: flex;
+    margin-left: 14%;
+    color: rgb(173, 146, 140);
+  }
+  
+  #div2 {
+    margin-right: 26%;
+    text-align: left;
+  }
+  
+  #div3 {
+    text-align: left;
+  }
+

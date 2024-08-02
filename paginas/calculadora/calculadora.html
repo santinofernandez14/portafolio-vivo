@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../../css/calculadora.css">
+    <link rel="shortcut icon" href="../../imagenes/proyectos/calculadora.png">
+    <script src="../../javascript/scriptc.js"></script>
+</head>
+
+<body>
+    
+
+    
+    <div id="calculadora">
+        <h2>CALCULADORA</h2>
+        <input type="text" id="caja" disabled>
+        <br>
+        <br>
+        <button onclick="agregarCaracter('7')">7</button>
+        <button onclick="agregarCaracter('8')">8</button>
+        <button onclick="agregarCaracter('9')">9</button>
+        <button onclick="agregarCaracter('*')">*</button>
+        <br>
+        <button onclick="agregarCaracter('4')">4</button>
+        <button onclick="agregarCaracter('5')">5</button>
+        <button onclick="agregarCaracter('6')">6</button>
+        <button onclick="agregarCaracter('-')">-</button>
+        <br>
+        <button onclick="agregarCaracter('1')">1</button>
+        <button onclick="agregarCaracter('2')">2</button>
+        <button onclick="agregarCaracter('3')">3</button>
+        <button onclick="agregarCaracter('+')">+</button>
+        <br>
+        <button id="cero" onclick="agregarCaracter('0')">0</button>
+        <button id="borrar" onclick="limpiar()">C</button>
+        <button id="dividir" onclick="agregarCaracter('/')">/</button>
+        <button id="igual" onclick="calcular()">=</button>
+    </div>
+
+
+</body>
+
+</html>

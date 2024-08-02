@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    color: rgb(131, 16, 146);
+    text-align: center;
+}
+a:hover {
+    color: hotpink;
+  }
+@font-face {
+    font-family: "titulom" ;
+    src: url("fonts/spanish_faith/Spanish\ Faith.ttf");
+}
+.titulom {
+    font-family: "titulom" ;
+    margin: 10px;
+    padding: 0px;
+    font-size: 2cm;
+    }
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contenido .articulo {
+    width: 70%;
+    margin: auto;
+    flex: 300px;
+    padding: 20px;
+    background-color: #DBBCE8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+.contenido .articulo div {
+    width: 90%;
+    padding: 15px;
+    background-color:#DBBCE8 ;
+    border-radius:15px ;
+    margin-bottom: 15px;
+}
+.contenido .articulo img{
+    width: 200px;
+    border-radius: 60%;
+}
+
+.contenido .articulo2 {
+    width: 70%;
+    margin: auto;
+    flex: 300px;
+    padding: 20px;
+    background-color: #DBBCE8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+.articulo2 div {
+    width: 90%;
+    padding: 15px;
+    background-color:#DBBCE8 ;
+    border-radius:15px ;
+    margin-bottom: 15px;
+}
+.articulo2 img{
+    width: 200px;
+    border-radius: 60%;
+}
+
+.articulo3 {
+    width: 70%;
+    margin: auto;
+    flex: 300px;
+    padding: 20px;
+    background-color: #DBBCE8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+.articulo3 div {
+    width: 90%;
+    padding: 15px;
+    background-color:#DBBCE8 ;
+    border-radius:15px ;
+    margin-bottom: 15px;
+}
+.articulo3 img{
+    width: 200px;
+    border-radius: 60%;
+}
+
+.articulo4 {
+    width: 70%;
+    margin: auto;
+    flex: 300px;
+    padding: 20px;
+    background-color: #DBBCE8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+.articulo4 div {
+    width: 90%;
+    padding: 15px;
+    background-color:#DBBCE8 ;
+    border-radius:15px ;
+    margin-bottom: 15px;
+}
+.articulo4 img{
+    width: 200px;
+    border-radius: 60%;
+}
+.piedepagina {
+    background-color: #DBBCE8;
+    margin-top: 100px;
+}
+.piedepagina p{
+    padding: 100px;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 15px;
+    right: 400px;
+
+}
+
+.contf {
+    background-color: rgb(225, 163, 215);
+    padding: 30px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+
+
+#contenedo {
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 75px;
+    border: 3px solid  rgb(243, 206, 218);
+    border-radius: 15px;
+    background-color: rgb(243, 206, 218);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contenedo>div {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.contf {
+    background-color: rgb(225, 163, 215);
+    padding: 20px;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+.div1 {
+    display: flex;
+    margin-left: 14%;
+    color: black;
+}
+
+#div2 {
+    margin-right: 26%;
+    text-align: left;
+}
+
+#div3 {
+    text-align: left;
+}

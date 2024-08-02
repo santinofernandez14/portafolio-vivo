@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../css/estilot.css">
+    <link rel="shortcut icon" href="../../imagenes/icono.png">
+    <script src="../../javascript/scriptn.js" defer></script>
+    <script src="../../javascript/scriptnav.js" defer></script>
+</head>
+
+<body>
+
+    <nav id="contenedo">
+
+        <div id="home" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="paginaturismo.html" style="text-decoration: none;color:rgb(173, 146, 140)">Home</a>
+        </div>
+        <div id="hoteles" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/paginasdeinteres/paginasdeinteres.html"
+                style="text-decoration: none; color:rgb(173, 146, 140)">Páginas de interés</a>
+        </div>
+        <div id="contacto" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/contacto/contacto.html"
+                style="text-decoration: none; color:rgb(173, 146, 140)">Contacto</a>
+
+        </div>
+        <div id="acercade" onmouseover="cambiarClick(this)" onmouseout="cambio(this)">
+            <a href="../../paginas/aboutus/aboutus.html" style="text-decoration: none; color:rgb(173, 146, 140)">Acerca
+                de:</a>
+
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <br>
+
+            <div class="fondo"></div>
+
+            <h2>LOS 10 DESTINOS MAS VISITADOS EN EL MUNDO</h2>
+            <div id="contenedor">
+
+
+                <div id="anterior">
+                    <img id="imgant" class="imgb" src="../../imagenes/timessquare.jpg" alt="Anterior" onclick="anterior()"
+                        onmouseover="verSpan('Anterior','58px')" onmouseout="ocultarSpan('anterior')"></img>
+                </div>
+                <div id="clickparamasinfo">
+                    <a id="imglink" href="../machupichu/machupichu.html">
+                        <img id="imgpri" src="../../imagenes/machupichu.jpg" onmouseover="verSpan('ClickParaMasInfo','150px')"
+                            onmouseout="ocultarSpan('clickparamasinfo')"></img>
+                    </a>
+                </div>
+                <div id="siguiente">
+                    <img id="imgsig" class="imgb" src="../../imagenes/petra.jpg" alt="Siguiente" onclick="siguiente()"
+                        onmouseover="verSpan('Siguiente','58px')" onmouseout="ocultarSpan('siguiente')"></img>
+                </div>
+            </div>
+        </section>
+        <section>
+            <br>
+            <div id="contp">
+
+                <h3 id="titulo">Machu Picchu - Perú</h3>
+
+                <p id="parrafo1">Se destaca como el principal enclave arqueológico maya gracias a su ingenioso trazado
+                    urbano,
+                    la majestuosidad de sus estructuras y la meticulosa labor en piedra de sus edificaciones. En su
+                    diseño
+                    se
+                    aprovechó de manera notable la geografía de la colina que lo convirtió en un impresionante centro
+                    ceremonial.</p>
+            </div>
+
+            <br>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contf">
+            <div class="div1">
+                <div id="div2"><span>© 2024 Empresa GRUPO7 Ltda. Todos los derechos
+                        reservados</span><br><br><span>Teléfono: +5491141247321 , Email: grupo7@gmail.com</span></div>
+                <div id="div3"><span>Dirección: Calle: Ridavia 523, Ciudad: Florida </span><br><br><span>Última
+                        actualización: 7 de marzo de 2024</span></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
