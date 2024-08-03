@@ -1,19 +1,14 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-    
 }
 
-
-#logo{
+#logo {
     height: 50px;
     position: relative;
     bottom: 15px;
     right: 400px;
-
 }
-
-
 
 #contenedo {
     display: flex;
@@ -22,54 +17,52 @@
     position: sticky;
     top: 0;
     height: 75px;
-    border: 3px solid  rgb(243, 206, 218);
+    border: 3px solid rgb(243, 206, 218);
     border-radius: 15px;
     background-color: rgb(243, 206, 218);
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#contenedo>div {
+
+#contenedo > div {
     text-align: center;
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-body{
-    background-color:#F5E9E2;
-   
+body {
+    background-color: #F5E9E2;
 }
 
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: black
+    color: black;
 }
+
 .informacion img {
     width: 200px;
     margin-top: -70px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    
 }
+
 .informacion img:hover {
     transform: translateY(-10px);
 }
 
-
-
 .informacion {
     display: flex;
     justify-content: center;
-    
-
-    
 }
+
 .contf {
     background-color: rgb(225, 163, 215);
     padding: 20px;
@@ -93,4 +86,47 @@ h1 {
 
 #div3 {
     text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    #logo {
+        position: static;
+        margin-bottom: 10px;
+        right: 0;
+    }
+
+    #contenedo {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .informacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacion img {
+        width: 100%;
+        max-width: 150px;
+        margin-top: 0;
+    }
+
+    .contf {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .div1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #div2, #div3 {
+        margin: 10px 0;
+        text-align: center;
+    }
 }

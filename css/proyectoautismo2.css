@@ -5,19 +5,23 @@
     color: rgb(131, 16, 146);
     text-align: center;
 }
+
 a:hover {
     color: hotpink;
-  }
-@font-face {
-    font-family: "titulom" ;
-    src: url("fonts/spanish_faith/Spanish\ Faith.ttf");
 }
+
+@font-face {
+    font-family: "titulom";
+    src: url("fonts/spanish_faith/Spanish Faith.ttf");
+}
+
 .titulom {
-    font-family: "titulom" ;
+    font-family: "titulom";
     margin: 10px;
     padding: 0px;
     font-size: 2cm;
-    }
+}
+
 .contenido {
     display: flex;
     width: 80%;
@@ -27,7 +31,11 @@ a:hover {
     flex-wrap: wrap;
     gap: 20px;
 }
-.contenido .articulo {
+
+.contenido .articulo,
+.contenido .articulo2,
+.contenido .articulo3,
+.contenido .articulo4 {
     width: 70%;
     margin: auto;
     flex: 300px;
@@ -36,99 +44,42 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     text-align: center;
-}
-.contenido .articulo div {
-    width: 90%;
-    padding: 15px;
-    background-color:#DBBCE8 ;
-    border-radius:15px ;
-    margin-bottom: 15px;
-}
-.contenido .articulo img{
-    width: 200px;
-    border-radius: 60%;
 }
 
-.contenido .articulo2 {
-    width: 70%;
-    margin: auto;
-    flex: 300px;
-    padding: 20px;
-    background-color: #DBBCE8;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    text-align: center;
-}
-.articulo2 div {
-    width: 90%;
-    padding: 15px;
-    background-color:#DBBCE8 ;
-    border-radius:15px ;
-    margin-bottom: 15px;
-}
-.articulo2 img{
-    width: 200px;
-    border-radius: 60%;
-}
-
-.articulo3 {
-    width: 70%;
-    margin: auto;
-    flex: 300px;
-    padding: 20px;
-    background-color: #DBBCE8;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    text-align: center;
-}
-.articulo3 div {
-    width: 90%;
-    padding: 15px;
-    background-color:#DBBCE8 ;
-    border-radius:15px ;
-    margin-bottom: 15px;
-}
-.articulo3 img{
-    width: 200px;
-    border-radius: 60%;
-}
-
-.articulo4 {
-    width: 70%;
-    margin: auto;
-    flex: 300px;
-    padding: 20px;
-    background-color: #DBBCE8;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    text-align: center;
-}
+.contenido .articulo div,
+.articulo2 div,
+.articulo3 div,
 .articulo4 div {
     width: 90%;
     padding: 15px;
-    background-color:#DBBCE8 ;
-    border-radius:15px ;
+    background-color: #DBBCE8;
+    border-radius: 15px;
     margin-bottom: 15px;
 }
-.articulo4 img{
+
+.contenido .articulo img,
+.articulo2 img,
+.articulo3 img,
+.articulo4 img {
     width: 200px;
     border-radius: 60%;
 }
+
 .piedepagina {
     background-color: #DBBCE8;
     margin-top: 100px;
 }
-.piedepagina p{
+
+.piedepagina p {
     padding: 100px;
 }
 
-#logo{
+#logo {
     height: 50px;
     width: 50px;
     position: relative;
     bottom: 15px;
     right: 400px;
-
 }
 
 .contf {
@@ -138,8 +89,6 @@ a:hover {
     border-radius: 15px;
 }
 
-
-
 #contenedo {
     display: flex;
     justify-content: center;
@@ -147,14 +96,14 @@ a:hover {
     position: sticky;
     top: 0;
     height: 75px;
-    border: 3px solid  rgb(243, 206, 218);
+    border: 3px solid rgb(243, 206, 218);
     border-radius: 15px;
     background-color: rgb(243, 206, 218);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#contenedo>div {
+#contenedo > div {
     text-align: center;
     padding-top: 15px;
     padding-left: 10px;
@@ -162,10 +111,11 @@ a:hover {
     border-radius: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
+
 .contf {
     background-color: rgb(225, 163, 215);
     padding: 20px;
@@ -189,4 +139,66 @@ a{
 
 #div3 {
     text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .titulom {
+        font-size: 1.5cm;
+        text-align: center;
+    }
+
+    .contenido {
+        width: 95%;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+
+    .contenido .articulo,
+    .contenido .articulo2,
+    .contenido .articulo3,
+    .contenido .articulo4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #logo {
+        position: static;
+        margin-bottom: 20px;
+        right: 0;
+    }
+
+    .div1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #div2,
+    #div3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulom {
+        font-size: 1.2cm;
+    }
+
+    .contenido {
+        gap: 10px;
+    }
+
+    .contenido .articulo img,
+    .contenido .articulo2 img,
+    .contenido .articulo3 img,
+    .contenido .articulo4 img {
+        width: 150px;
+    }
+
+    .piedepagina p {
+        padding: 50px;
+    }
 }

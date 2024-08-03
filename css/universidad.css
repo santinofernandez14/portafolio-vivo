@@ -3,8 +3,6 @@
     font-family: sans-serif;
 }
 
-
-
 #contenedo {
     display: flex;
     justify-content: center;
@@ -12,7 +10,7 @@
     position: sticky;
     top: 0;
     height: 75px;
-    border: 3px solid  rgb(243, 206, 218);
+    border: 3px solid rgb(243, 206, 218);
     border-radius: 15px;
     background-color: rgb(243, 206, 218);
     padding-top: 10px;
@@ -27,78 +25,50 @@
     border-radius: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-body{
-    background-color:#F5E9E2;
-   
+body {
+    background-color: #F5E9E2;
 }
-
 
 #contenedor {
     justify-content: center;
     display: flex;
-
 }
 
-
-#logo{
+#logo {
     height: 50px;
     position: relative;
     bottom: 15px;
     right: 400px;
-
 }
 
-
-
-
-h1{
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     padding-left: 10px;
 }
 
-h3{
+h3 {
     color: #291E48;
     padding-left: 3px;
-
 }
-.container-informacion{
+
+.container-informacion {
     display: flex;
     gap: 20px;
-   
 }
 
-p{
-    
+p {
     font-size: 17px;
 }
 
-.info-1{
-    width: 100%;
-    background-color: #c0affc;
-    font-size: 20px;
-    border: 4px solid #291E48;
-    border-radius: 10px;
-
-}
-
-.info-2{
-    width: 100%;
-    background-color: #c0affc;
-    font-size: 16px;
-    border: 4px solid #3f2d72;
-    border-radius: 10px;
-
-}
-
-.info-3{
+.info-1, .info-2, .info-3 {
     width: 100%;
     background-color: #c0affc;
     font-size: 18px;
@@ -106,18 +76,17 @@ p{
     border-radius: 10px;
 }
 
-hr{
+hr {
     margin-top: 30px;
     width: 60%;
     border: 1px solid #3f2d72;
 }
 
-.container-kit{
+.container-kit {
     display: flex;
-    
 }
 
-.informacion-universidad{
+.informacion-universidad {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -128,30 +97,17 @@ hr{
     padding: 15vh;
 }
 
-.texto-1{
+.texto-1, .texto-2 {
     width: 50%;
     margin: auto;
     background-color: #c0affc;
     border: 4px solid #625094;
     border-radius: 3%;
-    
-   
 }
 
-.texto-2{
-    width: 50%;
-   margin: auto;
-   background-color: #c0affc;
-    border: 4px solid #625094;
-    position: relative;
-    top: 5px;
+#div11 {
+    margin-left: 20px;
 }
-
-#div11{
-margin-left: 20px;
-}
-
-
 
 .contf {
     background-color: rgb(225, 163, 215);
@@ -178,23 +134,68 @@ margin-left: 20px;
     text-align: left;
 }
 
-
-#cont-img{
-    width: 380px;
-    height: 390px;
+#cont-img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
     border-radius: 3%;
     position: relative;
     top: 40px;
-   
-    
 }
 
-#div10{
+#div10 {
     position: absolute;
 }
 
-
-.titulo-kit{
+.titulo-kit {
     position: relative;
     bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+    #contenedo {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #logo {
+        position: static;
+        margin-bottom: 10px;
+        right: 0;
+    }
+
+    .container-informacion {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container-kit {
+        flex-direction: column;
+    }
+
+    .informacion-universidad {
+        width: 100%;
+        left: 0;
+        padding: 5vh;
+    }
+
+    .texto-1, .texto-2 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #div11, .div1, #div2, #div3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    #cont-img {
+        max-width: 100%;
+    }
+
+    hr {
+        width: 80%;
+    }
 }
