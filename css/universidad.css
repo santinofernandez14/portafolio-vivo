@@ -189,13 +189,22 @@ hr {
     #div11, .div1, #div2, #div3 {
         margin: 0;
         text-align: center;
+        clear: both; 
     }
 
     #cont-img {
         max-width: 100%;
+        margin-bottom: 20px; 
     }
 
     hr {
         width: 80%;
+    }
+
+    
+    .div1, #div2, #div3 {
+        margin-bottom: 20px; 
+        display: block;
+        width: 100%;
     }
 }
