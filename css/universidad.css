@@ -195,16 +195,18 @@ hr {
     #cont-img {
         max-width: 100%;
         margin-bottom: 20px; 
+        float: left; 
+        margin-right: 20px; 
     }
 
     hr {
         width: 80%;
     }
 
-    
     .div1, #div2, #div3 {
         margin-bottom: 20px; 
         display: block;
         width: 100%;
+        clear: both;
     }
 }
