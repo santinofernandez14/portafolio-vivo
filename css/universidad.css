@@ -186,34 +186,24 @@ hr {
         margin: 20px auto;
     }
 
-     .div1, #div2, #div3 {
+    #div11, .div1, #div2, #div3 {
         margin: 0;
         text-align: center;
         clear: both; 
     }
 
-    #div11{
-        position: relative;
-        top: 150px;
-    }
-
-    #cont-img {
-        max-width: 100%;
-        margin-bottom: 20px; 
-        float: left; 
-        margin-right: 20px; 
-        position: relative;
-        top: 20px;
+    .container-kit #cont-img {
+        display: none;
     }
 
     hr {
         width: 80%;
     }
 
+    
     .div1, #div2, #div3 {
         margin-bottom: 20px; 
         display: block;
         width: 100%;
-        clear: both;
     }
 }
