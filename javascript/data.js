@@ -54,7 +54,7 @@ const proyectos=[
 
 
 const informacionPersonal= {
-imagen: "imagenes/img1.jpg",
+imagen: "imagenes/img1.png",
 otros: [
 
 ["Nacionalidad","Argentino"],
